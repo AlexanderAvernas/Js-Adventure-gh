@@ -1,0 +1,24 @@
+[
+	{
+
+		"destination": "Costa Rica",
+		"votes": 4
+	},
+	{
+
+		"destination": "Panama",
+		"votes": 7
+	},
+
+  {
+
+		"destination": "USA",
+		"votes": 10
+	},
+
+  {
+
+		"destination": "Australien",
+		"votes": 15
+	}
+  ]

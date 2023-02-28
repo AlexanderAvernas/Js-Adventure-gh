@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="book-body">
+    <!-- Navbar -->
+
+    <header>
+      <nav class="navbar">
+        <a href="#" class="nav-branding">AdVenture</a>
+
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="book.html" class="nav-link">Book</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+    <section></section>
+
+    <!-- formula with PUT -->
+    <section class="book-section">
+      <img class="form-image" src="assets/beach.jpg" alt="Sunset" />
+      <div class="book-div-section">
+      <h2 class="book-h2-text">Book your trip in the form below!</h2>
+    </div>
+    </section>
+
+    <div id="put-container">
+      <form id="form">
+        <div id="myValue">
+          <label class="labelNameAirport" for="airport">Choose where you travels from:</label>
+          <select name="airport" id="airport">
+            <option id="idAirport" selected></option>
+          </select>
+          <input id="hiddenId" type="hidden">
+        </div>
+        <div class="input-container">
+          <label class="putLabel" for="destination">
+            <input id="destination" type="text" placeholder="Destination" />
+          </label>
+
+            <input id="travelers" type="text" placeholder="Travelers" />
+          </label>
+        </div>
+
+        <input id="form-button" type="submit" value="Book" />
+      </form>
+
+    </div>
+
+    <div id="errorDestination"></div>
+        <div id="correctDestination"></div>
+
+    <script src="book.js"></script>
+  </body>
+</html>
